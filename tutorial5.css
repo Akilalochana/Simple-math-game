@@ -1,0 +1,61 @@
+.q1 {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    width: 400px;
+    height: 200px;
+}
+
+#question1,
+#question2,
+#question3,
+#question4,
+#question5,
+#question6,
+#question7,
+#question8,
+#question9,
+#question10 {
+    margin-left: 30px;
+}
+
+
+
+.answerQ1 {
+    margin-left: 30px;
+    width: 300px;
+    padding: 5px;
+}
+
+.okButtn {
+    border-radius: 3px;
+    padding: 5px;
+    width: 70px;
+    left: 300px;
+    top: 200px;
+    position: absolute;
+    font-size: 20px;
+    background-color: rgb(148, 148, 253);
+    border: none;
+
+}
+
+.canclebuttn {
+    border-radius: 3px;
+    padding: 3px;
+    width: 70px;
+    left: 200px;
+    top: 200px;
+    position: absolute;
+    font-size: 20px;
+
+
+}
+
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+.incorrect {
+    color: red;
+    font-weight: bold;
+}
